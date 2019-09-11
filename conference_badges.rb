@@ -14,3 +14,5 @@ attendees.each do |name|
 end
 end
 
+def assign_rooms
+  attendees.each_with_index
