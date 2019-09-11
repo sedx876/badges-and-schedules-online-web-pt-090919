@@ -15,4 +15,4 @@ end
 end
 
 def assign_rooms
-  attendees.each_with_index { |name, index| puts "Hello, #{name}! You'll be assigned to room _____!"
+  attendees.each_with_index { |name, index| puts "Hello, #{name}! You'll be assigned to room #{index}!"
